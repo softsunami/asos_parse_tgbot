@@ -6,7 +6,7 @@ import json
 import time
 import config as cfg
 
-token = "5068744934:AAFdFDTtcCOG_dmxE6x7seLmSK6pad3T-Sw"
+token = TOKEN
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 whois_list = []
